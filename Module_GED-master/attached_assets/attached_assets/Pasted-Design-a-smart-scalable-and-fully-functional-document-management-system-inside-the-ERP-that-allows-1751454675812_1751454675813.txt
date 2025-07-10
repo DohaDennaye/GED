@@ -1,0 +1,210 @@
+Design a smart, scalable, and fully functional document management system inside the ERP that allows each company to manage, organize, classify, store, preview, search, share, and secure all types of internal and external documents with custom structure flexibility.
+
+🔶 1. 📁 Global Layout & Structure
+Sidebar (Left Panel):
+
+Folder Tree View (expand/collapse)
+
+Button: + Add Folder, + Add File
+
+Quick Filters (All, My Docs, Shared With Me, Recent, Favorites, Archived)
+
+Main View:
+
+Grid or List View toggle of folders/files.
+
+Show Name, Type, Size, Owner, Tags, Date, Actions.
+
+Preview panel on right when document is selected.
+
+Top Actions:
+
+Upload, New Folder, Scan, Bulk Actions, Search
+
+🔶 2. 🏗️ Company-Specific Folder Architecture
+Each company can:
+
+Define their own folder structures (e.g., “Comptabilité”, “RH”, “Achats”, “Appels d’Offres”, etc.)
+
+Set templates for recurring folder hierarchies (e.g., Import Project → [DUM, Factures, Quittance...])
+
+Flexible Folder Types:
+
+Standard Folder
+
+Smart Folder (filtered by rules: tags, dates, types)
+
+Secure Folder (with access control)
+
+🔶 3. 📑 File Features
+Each file has:
+
+Metadata:
+
+Title
+
+Type (PDF, Word, Excel, ZIP, Image…)
+
+Tags (multi-tagging)
+
+Source (uploaded, scanned, email dropbox)
+
+Status (validé, en attente, expiré, annulé)
+
+Actions:
+
+Rename / Move / Delete / Archive
+
+Download / Preview / Print
+
+Share (with link, user, or external)
+
+Add Comment / History / Logs
+
+Versions:
+
+Enable versioning with restore and compare option.
+
+Track who modified/uploaded each version.
+
+🔶 4. 🔍 Advanced Search & Filters
+Full-text search inside PDFs (OCR-enabled)
+
+Filters:
+
+File type
+
+Owner / Uploaded by
+
+Tags
+
+Date added
+
+Folder
+
+Validity (e.g., expired documents)
+
+🔶 5. 🔐 Permissions & Sharing
+Folder-based permission matrix:
+
+Read / Write / Share / Delete
+
+Assign access to:
+
+Individual users
+
+User groups (e.g., RH, Commercial, DG)
+
+External (via secure public link)
+
+Option to expire access (by date or view count).
+
+Notification if file is shared externally.
+
+🔶 6. 📅 Expiration & Alerts
+Define document expiration dates.
+
+Notify:
+
+Before expiration (configurable X days)
+
+After expiration
+
+When approval is pending
+
+Automatic archival or lock on expiry.
+
+🔶 7. 🔁 Workflow & Approval
+Document Approval Flow:
+
+Multi-level validation (e.g., DG > RH > Comptable)
+
+Status shown on document card: Draft → In Review → Approved → Final
+
+Users can:
+
+Approve / Reject
+
+Comment per stage
+
+See approval history
+
+🔶 8. ⚙️ Automation Features
+Auto OCR for scanned documents.
+
+Auto-tagging based on filename or content.
+
+Auto folder generation from templates (e.g., for each “Projet Import”)
+
+Email-to-folder (unique address per folder to drop attachments)
+
+🔶 9. 📦 Integration with Other Modules
+Connect GED with:
+
+CRM (attach client docs)
+
+HRM (store CVs, contracts)
+
+Projects (plans, reports)
+
+Purchase / Factures (link import documents)
+
+Appels d’Offres (CPS, soumission, résultats)
+
+Show related documents in other module views.
+
+🔶 10. 📊 Dashboard & Activity
+Quick stats:
+
+Number of documents
+
+Expiring soon
+
+Recently added
+
+Storage used
+
+Activity log:
+
+Who uploaded, deleted, edited, approved
+
+🔶 11. 📲 Mobile & Responsive
+Fully mobile-responsive interface.
+
+Ability to scan and upload directly from camera.
+
+Swipe to view, sign, approve, or download.
+
+🔶 12. 🛡️ Security & Backup
+Encrypted storage for sensitive folders.
+
+Daily backups and download archive zip option.
+
+Audit trail for every action.
+
+Block external access unless explicitly allowed.
+
+✅ Deliverables in UI
+Folder tree + file list layout
+
+Drag & drop upload
+
+Modal: Add File, Add Folder, Tag Editor
+
+Full preview pane (PDF, images, Word...)
+
+Search bar with filters
+
+File sidebar with metadata, actions, versions
+
+Responsive mobile-friendly design
+
+🎨 Design Suggestions
+Use subtle gradients & shadows
+
+Icons for file types (PDF, Excel, Word, Image...)
+
+Badge indicators for expired, pending, validated
+
+Highlighted cards for “shared with me”
+
